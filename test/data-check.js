@@ -26,6 +26,7 @@ describe("FormApp Contract", function () {
         expect(temp[2]).to.equal("some answer here");
         temp = await formapp.get_data(2);
         expect(temp[0]).to.equal("test2");
+        expect(temp[1]).to.equal("20");
     });
 
 });

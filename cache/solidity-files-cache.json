@@ -2,9 +2,46 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/mohitdhattarwal/Desktop/personal_projects/form-app/contracts/FormApp.sol": {
-      "lastModificationDate": 1661021613826,
-      "contentHash": "097f20cd79ad87c702bd6b431a04d38a",
+      "lastModificationDate": 1661022617453,
+      "contentHash": "52f83e7d9888ada9f8bf6e37ea3f237a",
       "sourceName": "contracts/FormApp.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "FormApp"
+      ]
+    },
+    "/Users/mohitdhattarwal/Desktop/personal_projects/form-app/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1661020438113,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
       "solcConfig": {
         "version": "0.8.9",
         "settings": {
@@ -30,10 +67,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.9"
+        ">=0.4.22 <0.9.0"
       ],
       "artifacts": [
-        "FormApp"
+        "console"
       ]
     }
   }
